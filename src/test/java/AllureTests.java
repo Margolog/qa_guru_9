@@ -37,7 +37,7 @@ public class AllureTests {
             open("https://github.com");
         });
 
-        step("Ищем репу", () -> {
+        step("Ищем репозиторий", () -> {
             $("[data-target='qbsearch-input.inputButton']").click();
             $("#query-builder-test").sendKeys("Margolog/qa_guru_9");
             $("#query-builder-test").pressEnter();
